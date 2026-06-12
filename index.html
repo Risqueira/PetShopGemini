@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Elegance | Banho e Tosa de Alto Padrão</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Pet<span>Elegance</span></div>
+        <button id="theme-toggle" class="btn-theme" aria-label="Alternar tema">🌓 Alternar Tema</button>
+    </header>
+
+    <section class="services-container">
+        <h2 class="section-title">Nossos Serviços Exclusivos</h2>
+        <div class="services-grid">
+            
+            <div class="service-card">
+                <span class="badge badge-popular">Mais Vendido</span>
+                <h3>Banho e Tosa Completa Premium</h3>
+                <p>Cuidado completo com produtos hipoalergênicos importados e corte estilizado.</p>
+                <div class="service-meta">
+                    <span class="time-tag">⏱️ 2h 00min</span>
+                    <span class="price">R$ 180</span>
+                </div>
+                <a href="#agendamento" class="btn-cta">Agendar Agora</a>
+            </div>
+
+            <div class="service-card">
+                <h3>Banho & Tosa Higiênica</h3>
+                <p>Ideal para a manutenção do bem-estar e higiene diária do seu pet.</p>
+                <div class="service-meta">
+                    <span class="time-tag">⏱️ 1h 30min</span>
+                    <span class="price">R$ 120</span>
+                </div>
+                <a href="#agendamento" class="btn-cta">Agendar Agora</a>
+            </div>
+
+            <div class="service-card">
+                <h3>Spa de Hidratação de Ozônio</h3>
+                <p>Tratamento capilar profundo para brilho e recuperação da pelagem.</p>
+                <div class="service-meta">
+                    <span class="time-tag">⏱️ 1h 00min</span>
+                    <span class="price">R$ 150</span>
+                </div>
+                <a href="#agendamento" class="btn-cta">Agendar Agora</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="testimonials-container">
+        <h2 class="section-title">O que dizem nossos clientes VIPs</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="comment">"O atendimento é impecável. O Luke voltou cheiroso e a tosa tesoura ficou perfeita. Vale cada centavo!"</p>
+                <h4 class="author">✨ Mariana Silva (Tutora do Luke)</h4>
+            </div>
+            <div class="testimonial-card">
+                <p class="comment">"Ambiente extremamente limpo e profissionais calmos. Meu gato não fica estressado aqui."</p>
+                <h4 class="author">✨ Carlos Eduardo (Tutor do Miucha)</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="agendamento" class="booking-container">
+        <h2 class="section-title">Agende um Horário</h2>
+        <form id="booking-form" class="booking-form">
+            <div class="form-group">
+                <label for="pet-name">Nome do Pet</label>
+                <input type="text" id="pet-name" required placeholder="Ex: Thor">
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone do Tutor</label>
+                <input type="tel" id="phone" required placeholder="(11) 99999-9999" maxlength="15">
+            </div>
+            <div class="form-group">
+                <label for="date">Data do Procedimento</label>
+                <input type="date" id="date" required>
+            </div>
+            <button type="submit" class="btn-submit">Confirmar Solicitação</button>
+        </form>
+    </section>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

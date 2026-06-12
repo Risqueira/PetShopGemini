@@ -3,7 +3,7 @@
 
 O **Pet Elegance** é uma landing page responsiva desenvolvida para pet shops de alto padrão, focada na conversão de agendamentos e em uma experiência do usuário (UX) premium. O projeto conta com design minimalista, suporte a temas claro/escuro e microinterações modernas.
 
-OBS: A produção inteira desse projeto foi feita pelo ChatGPT para fins de estudos do Têcnico de TI, aonde eu escolhi o ChatGPT e Gemini para fazer uma comparação do qual entregaria um melhor resultado com o mesmo prompt. O repositorio logo abaixo desse no meu perfil será do Gemini.
+OBS: A produção inteira desse projeto foi feita pelo Gemini para fins de estudos do Têcnico de TI, aonde eu escolhi o ChatGPT e Gemini para fazer uma comparação do qual entregaria um melhor resultado com o mesmo prompt. O repositorio logo acima desse no meu perfil será do ChatGPT.
 
 Prompt Site Pet Shop de Alto Padrão (especialista em Banho e Tosa)
 
